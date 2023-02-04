@@ -1,0 +1,1 @@
+SELECT * FROM dbo.SA1010 WHERE ID = 3;

@@ -1,0 +1,7 @@
+SELECT Name,
+       Continent,
+       LifeExpectancy AS [Live Expectancy]
+  FROM Country
+ WHERE Continent = 'South America'
+ ORDER BY LifeExpectancy DESC
+ LIMIT 5 OFFSET 5;
